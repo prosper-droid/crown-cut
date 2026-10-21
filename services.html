@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171713">
+  <meta name="description" content="Browse Crowncut Barbershop services, guide prices and visual examples, then book a service.">
+  <title>Services & Prices — Crowncut Barbershop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Crowncut Barbershop home">
+      <span class="brand-mark" aria-hidden="true">C<span>✦</span></span>
+      <span class="brand-name">CROWNCUT <small>BARBERSHOP</small></span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="index.html#about" class="nav-link">Our shop</a>
+      <a href="services.html" class="nav-link active">Services & prices</a>
+      <a href="index.html#gallery" class="nav-link">The details</a>
+      <a href="booking.html" class="nav-link nav-book">Book a visit <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+
+  <main id="main">
+<section class="page-banner"><div class="section-kicker">THE CROWNCUT MENU / 01</div><h1>Find your<br><em>kind of sharp.</em></h1><p>Hair, beard, skin and occasion grooming. Choose a service to carry it straight into your booking request.</p></section>
+    <section id="services" class="services-section">
+      <div class="section-wrap">
+        <div class="services-top">
+          <div><div class="section-kicker">02 / THE MENU</div><h2>Choose your<br><em>kind of sharp.</em></h2></div>
+          <p>Browse the menu, check the listed prices, and select a service to start your booking request. Prices below are guide prices in Nigerian naira and can be edited to match the shop's final menu.</p>
+        </div>
+        <div class="service-toolbar">
+          <div class="filter-list" role="group" aria-label="Filter services">
+            <button class="filter-button active" data-filter="all" aria-pressed="true">All services</button>
+            <button class="filter-button" data-filter="hair" aria-pressed="false">Hair</button>
+            <button class="filter-button" data-filter="beard" aria-pressed="false">Beard</button>
+            <button class="filter-button" data-filter="face" aria-pressed="false">Face & skin</button>
+            <button class="filter-button" data-filter="vip" aria-pressed="false">VIP & occasions</button>
+          </div>
+          <span class="menu-count" id="menu-count">24 SERVICES</span>
+        </div>
+        <div class="service-grid" id="service-grid" aria-live="polite">
+          <!-- Rendered from script.js -->
+        </div>
+        <p class="price-note">Prices are guide prices, not a final quote. Complex styles, hair length, products, travel and group size may affect the final cost. Your booking is only confirmed after the shop responds.</p>
+      </div>
+    </section>
+
+
+  </main>
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">C<span>✦</span></span><span class="brand-name">CROWNCUT <small>BARBERSHOP</small></span></a>
+    <p>Good work. Clean finish.</p>
+    <div class="footer-links"><a href="#services">Services</a><a href="#booking">Book a visit</a><a href="mailto:ugwuegbuprosper4@gmail.com">Email the shop</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Crowncut Barbershop</span><span>MADE FOR THE DETAILS.</span><a href="#home">BACK TO TOP ↑</a></div>
+  </footer>
+
+</body>
+</html>
